@@ -1,29 +1,28 @@
-
-Customer Shopping Behavior Analysis
+📊 Customer Shopping Behavior Analysis
 📌 Project Overview
 
-This project demonstrates a complete end-to-end data analytics workflow, transforming raw customer shopping data into meaningful business insights.
+This project presents a complete end-to-end data analytics workflow focused on understanding customer purchasing behavior.
 
-The objective is to simulate a real-world corporate data analytics project by combining Python, SQL, and Power BI to analyze customer behavior, purchasing trends, and business drivers.
+Using a dataset of ~3900 customer transactions, the project analyzes patterns in:
 
-🎯 Key Objectives
-✅ Data Cleaning & Preparation (Python)
-Process raw data, handle missing values, and create new features for analysis.
-✅ Exploratory Data Analysis (EDA)
-Understand patterns in customer demographics, purchases, and behavior.
-✅ Data Analysis using SQL
-Perform business-driven queries to extract insights such as:
-Customer segments
-Purchase frequency
-Revenue trends
-✅ Data Visualization (Power BI)
-Build an interactive dashboard to present insights clearly.
-✅ Business Insights & Recommendations
-Provide actionable recommendations based on analysis.
-🛠️ Tools & Technologies Used
-Python (Pandas, NumPy, Matplotlib)
-SQL (MySQL / PostgreSQL / SQL Server)
-Power BI
+Customer demographics
+Purchase behavior
+Product preferences
+Sales trends
+
+The goal is to transform raw data into actionable business insights using Python, SQL, and Power BI.
+
+🎯 Objectives
+✅ Clean and preprocess raw data
+✅ Perform exploratory data analysis (EDA)
+✅ Engineer meaningful features
+✅ Store and analyze data using SQL
+✅ Build interactive dashboards in Power BI
+✅ Generate business insights and recommendations
+🛠️ Tech Stack
+Python → Pandas, NumPy, Matplotlib
+SQL → MySQL / PostgreSQL / SQL Server
+Power BI → Dashboard & Visualization
 Jupyter Notebook
 <img width="4872" height="2656" alt="image" src="https://github.com/user-attachments/assets/b83e7cbf-6bfc-4dfe-a885-6b2d1a48c269" />
 Project Workflow
@@ -54,3 +53,24 @@ Clothing category has the highest number of purchases
 Customers aged 30–50 spend more on average
 Discounts significantly increase purchase frequency
 Weekly buyers contribute the most to revenue
+
+🚀 How to Run
+Step 1: Clone Repo
+git clone https://github.com/maheshlahoti/customer_shopping_behavior.git
+cd customer_shopping_behavior
+Step 2: Run Notebook
+Open .ipynb in Jupyter
+Run all cells
+Step 3: Load into SQL
+Create database
+Run Python SQL connection code
+Step 4: Execute SQL Queries
+Open .sql file
+Run queries
+Step 5: Open Power BI
+Load .pbix file
+Connect to database
+📈 Future Improvements
+Add machine learning (customer segmentation)
+Deploy dashboard online
+Automate data pipeline (ETL)
